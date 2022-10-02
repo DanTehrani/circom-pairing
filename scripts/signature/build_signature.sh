@@ -67,7 +67,7 @@ echo "DONE ($((end-start))s)"
 
 echo "****GENERATING PROOF FOR SAMPLE INPUT****"
 start=`date +%s`
-/data/rapidsnark/build/prover "$CIRCUIT_NAME".zkey witness.wtns proof.json public.json > proof.out
+rapidsnark "$CIRCUIT_NAME".zkey witness.wtns proof.json public.json > proof.out
 end=`date +%s`
 echo "DONE ($((end-start))s)"
 
