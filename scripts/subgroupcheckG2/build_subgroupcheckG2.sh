@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PHASE1=../../circuits/pot24_final.ptau
+PHASE1=../../circuits/pot20_final.ptau
 CIRCUIT_NAME=subgroupcheckG2
 BUILD_DIR=../../build/"$CIRCUIT_NAME"
 
